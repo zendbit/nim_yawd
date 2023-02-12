@@ -17,7 +17,7 @@ export strformat
 export asyncdispatch
 
 type
-  WebDriver* = ref object
+  WebDriver* = ref object of RootObj
     host*: string
     port*: int
     url: string
